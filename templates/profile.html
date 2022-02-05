@@ -11,6 +11,33 @@
 
 
     <title>Profile</title>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <script>
+      function fn1(){
+      var strname = document.getElementById("username").value
+      var strlocation = document.getElementById("Location").value
+      var strphonenumber = document.getElementById("phonenumber").value
+      var strdescription = document.getElementById("description").value
+      var strSkills = document.getElementById("skills").value
+
+      document.write(strname)
+
+      document.write(strlocation)
+
+      document.write(strphonenumber)
+
+      document.write(strdescription)
+
+      document.write(strSkills)
+    }
+  </script>
+
+
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet"
+herf="./fontawsome/css/all.css">
   </head>
   <body>
 
@@ -19,14 +46,70 @@
         <a href="signIn.html">Sign In</a>
         <a href="profile.html">Profile </a>
         <a href="matchdev.html">Find Matches</a>
+        <a href="reviewPage.html">Reviews</a>
     </div>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <div class = "container">
+      <div class = "profile-header">
+          <div class = "profile-img">
+              <img src="./bg.jpg" width="200" alt="">
+
+      </div>
+       <div class="profile-nav-info">
+         
+         <P class="user-name">Perfered Name</P> 
+         <input type="text" id="username" name="username"><br>
+        
+
+
+         <div class="address">
+             <p class="state">Location</p>
+             <input type="text" id="Location" name="Location"><br>
+            
+
+
+             <div class="Phonenumber">
+              <p class="Phonenumber">Phonenumber</p>
+              <input type="text" id="phonenumber" name="phonenumber"><br>
+           
+
+              <div class="file">
+                  <p>Click on the "Choose File" button to upload a file:</p>
+                  <form action="/action_page.php">
+                  <input type="file" id="myFile" name="filename">
+                  
+                  </form>
+
+
+             <div class="description">
+              <p class="description">Please describe yourself</p>
+              <textarea id="description" name="description" rows="4" cols="50">
+              
+                  </textarea>
+                  
+             </div>
+             
+             <div class="Skills">
+              <p class="Skills">Skills</p>
+              <textarea id="skills" name="skills" rows="4" cols="50">
+                 
+              </textarea>
+             
+              <hr>
+              <button onClick= "fn1()"  id = "btn6">Submit</button>
+             </div>
+
+
+         </div>
+       </div>
+  
+  
   </body>
 </html>
