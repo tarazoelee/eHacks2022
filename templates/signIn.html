@@ -15,11 +15,12 @@
     <div class="container">
         <button type="button" class="signupBtn">Sign Up</button>
       </div>
+
       <div class="container"><h1>welcome</h1></div>
       <!-- sign up button-->
       <div class="container">
           <section class=signinForm> 
-        <form action="action_page.php" method="post">
+        <form action="profile.html" method="post">
           
             <div class="container">
               <label for="uname"><b>Username</b></label>
@@ -28,19 +29,17 @@
               <label for="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" required>
               <br>
-
+            </form>
     
-              <a href="match.html">
-                <button>Log In</button>
-              </a>
+              <button onclick="window.location.href='profile.html'">Log In</button>
 
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
               <span class="psw"><a href="#">Forgot Password</a></span>
             </div>
+        
             <br>
-          </form>
         </section>
       </div>
    
