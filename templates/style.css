@@ -52,3 +52,18 @@ body{
     padding-top: 20%;
     padding-left: 5%;
 }
+
+.matchdev h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#john{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+#matt{
+    padding-left: 5%;
+}
