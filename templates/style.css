@@ -1,6 +1,10 @@
 body{
     font-family: 'Spartan', sans-serif;
 }
+.navbar a{
+    padding-left: 5%;
+    padding-right; 5%;
+}
 
 .signinForm{
     padding-top: 10%;
