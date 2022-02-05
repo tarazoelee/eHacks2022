@@ -49,10 +49,20 @@ body{
     padding-bottom: 20%;
 }
 #topreviews{
-    padding-top: 20%;
-    padding-left: 5%;
+    text-align: center;
+    padding-top:10%;
+}
+#projects{
+    padding-top: 2%;
+    align-items: center;
+    padding-left: 15%;
 }
 
+.column{
+    float:left;
+    width: 20%;
+    text-align: center;
+}
 .matchdev h1{
     text-align: center;
     padding-top: 5%;
