@@ -35,7 +35,7 @@ body{
 .signupBtn{
     float: right;
     margin-top: 3%;
-    margin-right:0%;
+    margin-right:5%;
 }
 
 #box1{
@@ -47,6 +47,10 @@ body{
     background-position: center;
     margin-right:0;
     padding-bottom: 20%;
+}
+
+#signinForm{
+    padding-bottom: 10%;
 }
 #topreviews{
     text-align: center;
