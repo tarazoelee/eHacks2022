@@ -13,9 +13,10 @@ function addReviewBtn(event){
     `<input type="text" id="name" placeHolder="Non-Profit Name"></input>
     <input type="text" id="rating" placeHolder="Rating out of 5"></input>
     <input type="text" id="about" placeHolder="About your experience"></input>`
-
-
-
-
-    reviews.append(div);
+    div.addEventListener(onsubmit, event => onSubmit(event));
+    document.querySelector('reviews').appendChild(div);
 } 
+
+function onSubmit(){
+    
+}
