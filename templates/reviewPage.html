@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<div class="container">
+    <html>
+        <head>
+            <style>
+                #name{
+                    text-align: center;
+                } 
+                .checked {
+                    color: orange;
+                }
+                .images{
+                    display : inline-block;
+                    border: 1px solid #ECEDE8;
+                    margin: 10px 10px;
+                    overflow: hidden;
+                    height: 200px;
+                    width: 200px;
+                }
+    
+            </style>
+            <title>Code4aCause</title>
+      
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Spartan:wght@300&display=swap" rel="stylesheet"> 
+        </head>
+        <body>
+
+            <div class="navbar">
+                <a href="signIn.html">Sign In</a>
+                <a href="profile.html">Profile </a>
+                <a href="reviewPage.html">Reviews</a>
+                <a href="matchdev.html">Find Matches</a>
+             </div>
+
+            <div id="topreviews">
+                <h2 id="name">Jane Doe</h2>
+                <h3 id="role">Role: Software Developper</h3>
+                <h3 id="age">Age: 19</h3>
+                <h3 id="about">About: 2nd Year Software Engineering Student at Western University</h3>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            
+            <div id="projects" >
+                <h3>Personal Projects</h3>
+                <img class="images" src="https://files.worldwildlife.org/wwfcmsprod/images/Narwhal_GPN232822_Species/carousel_small/64r8xqm2f2_GPN232822__c__Paul_Nicklen_National_Geographic_Stock_WWF_Canada.jpg"/>
+                <img class="images" src="https://mission-statement.com/wp-content/uploads/2021/02/ewb-usa-logo-color-1.jpg"/>
+                <img class="images" src="https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/1-1533264459.jpg"/>
+                <button>Learn More</button>
+                <button>Learn More</button>
+                <button>Learn More</button>
+            </div>
+
+            <div id="interests">
+                <h3>Interests</h3>
+                <ul>
+                    <li key="one">Web Development</li>
+                    <li key="two">Working and designing our own API</li>
+                </ul>
+            </div>
+
+
+            <div id="reviewsSection">
+                <h3>Reviews</h3>
+                <div id="reviews">
+                    <div class="box">
+                        <h4>Engineer's Without Borders</h4>
+                        <p>Rating: 5/5</p>
+                        <p>Jane did an amazing job with our website! She did a great job of keeping up with the timeline and was exellent at communicating!</p>
+                    </div>
+                </div>
+                <button id="addReview">Add a Review</button>
+            </div>
+            </div>
+            <script src="reviewPage.js"></script>
+
+        </body>
+    </html>
+</div>    
